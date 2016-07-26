@@ -1,7 +1,7 @@
 
 import os, sys
 from random import choice
-from moves import Rock, Paper, Scissors
+from rps.moves import Rock, Paper, Scissors
 
 class Game:
     def __init__(self, player, rounds=3):
